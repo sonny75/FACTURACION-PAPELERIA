@@ -1,0 +1,15 @@
+[
+    {
+        "codigo": "1a",
+        
+        "cod_usuario" : "01",
+        "fecha" : "18/11/2022",
+        "estado" : true,
+        "direccion" : "cr 18 a # 08 - 09 sur",
+        "email" : "s5231_@gmail.com",
+        "telefono" : 7829625,
+        "subtotal" : 1800,
+        "impuestos" : 0.19,
+        "total" : 2142
+    }
+]

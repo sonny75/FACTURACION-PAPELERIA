@@ -1,0 +1,24 @@
+[ {
+    
+    "codigo": "1v0",
+    "codcategoria": "1",
+    "nombre": "minas",
+    "precio": 800,
+    "activo": true
+    
+},
+{
+    "codigo": "1v0",
+    "codcategoria": "2",
+    "nombre": "bisturi",
+    "precio": 4800,
+    "activo": true
+},
+{
+    "codigo": "1v0",
+    "codcategoria": "3",
+    "nombre": "orring´s",
+    "precio": 100,
+    "activo": true
+}
+]

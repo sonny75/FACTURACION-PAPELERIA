@@ -1,0 +1,9 @@
+[{
+    "id_usuario": "001",
+    "nombre":"luis",
+    "pellidos": "perez martinez",
+    "identificacion":12545654,
+    "email":"luis@01gmail.com",
+    "telefono": 322458697,
+    "contraseña": "luis01"
+}]
