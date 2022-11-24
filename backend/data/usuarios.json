@@ -1,7 +1,7 @@
 [{
-    "id_usuario": "001",
+    "codusuario": "001",
     "nombre":"luis",
-    "pellidos": "perez martinez",
+    "apellidos": "perez martinez",
     "identificacion":12545654,
     "email":"luis@01gmail.com",
     "telefono": 322458697,

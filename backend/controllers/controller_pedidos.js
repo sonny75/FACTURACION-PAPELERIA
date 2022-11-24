@@ -25,16 +25,15 @@ router.get('/cargar/:codigo',(req,res)=>{
 router.post('/agregar',(req,res)=>{
     const miPedido = new modeloPedido({
         codigo : req.body.codigo,
-    
-        cod_usuario : req.body.cod_usuario,
+        codusuario : req.body.codusuario,
         fecha : req.body.fecha,
-        estado : req.body.estado,
         direccion : req.body.direccion,
         email : req.body.email,
         telefono : req.body.telefono,
         subtotal : req.body.subtotal,
         impuestos : req.body.impuestos,
-        total : req.body.total
+        total : req.body.total,
+        estado : req.body.estado
     })
     miPedido.save(function(err)
     {
@@ -47,16 +46,15 @@ router.post('/agregar',(req,res)=>{
 router.post('/editar/:codigo',(req,res)=>{
     modeloPedido.findOneAndUpdate({codigo:req.params.codigo},
     {
-        cod_usuario : req.body.cod_usuario,
-       
+        codusuario : req.body.codusuario,
         fecha : req.body.fecha,
-        estado : req.body.estado,
         direccion : req.body.direccion,
         email : req.body.email,
         telefono : req.body.telefono,
         subtotal : req.body.subtotal,
         impuestos : req.body.impuestos,
-        total : req.body.total
+        total : req.body.total,
+        estado : req.body.estado
     }, 
         function(err)
         {

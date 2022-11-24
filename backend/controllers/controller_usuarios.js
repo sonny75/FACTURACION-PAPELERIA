@@ -24,7 +24,7 @@ router.get('/cargar/:codigo',(req,res)=>{
 
 router.post('/agregar',(req,res)=>{
     const miUsuario = new modeloUsuario({
-       cod_usuario : req.body.id_usuario,
+       codusuario : req.body.codusuario,
        nombre : req.body.nombre,
        apellido : req.body.apellido,
        identificacion : req.body.identificacion,

@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const miesquema = mongoose.Schema;
 
 const esquemaUsuario = new miesquema({
-    cod_usuario : String,
+    codusuario : String,
     nombre :String,
     apellidos: String,
     identificacion : Number,

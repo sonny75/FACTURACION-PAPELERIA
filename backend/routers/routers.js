@@ -17,15 +17,15 @@ const rutaUsuarios = require('./router_usuarios');
 router.use('/usuarios',rutaUsuarios);
 
 // Ruta para Detalle Pedidos
-const rutaDetallePedidos = require('./router_detalle_pedidos');
-router.use('/detalle_pedidos',rutaDetallePedidos);
+const rutaPedidosDetalle = require('./router_pedidosdetalle');
+router.use('/pedidosdetalle',rutaPedidosDetalle);
 
 //Ruta para productos en agregación con categorias
 const rutaProductosCategorias = require('./router_productos_categorias');
 router.use('/productoscategorias',rutaProductosCategorias);
 
 //Ruta para pedidos con detalle pedidos
-const rutaPedidosDetallePedidos = require('./router_pedidos_detalle_pedidos');
+const rutaPedidosDetallePedidos = require('./router_pedidosdetalle_pedidos');
 router.use('/pedidosdetallepedidos',rutaPedidosDetallePedidos);
 
 
