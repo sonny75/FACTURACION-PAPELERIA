@@ -1,0 +1,16 @@
+[
+    {
+        "codigo" : "5fxf35s",
+        "codcategoria" : "1",
+        "nombre" : "Azucar",
+        "precio" : 4000,
+        "activo" : true   
+    },
+    {
+        "codigo" : "3c4f657",
+        "codcategoria" : "1",
+        "nombre" : "Café",
+        "precio" : 10000,
+        "activo" : true   
+    }
+]

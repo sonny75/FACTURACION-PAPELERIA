@@ -1,0 +1,15 @@
+[
+    {
+        "codigo" : "x56re6",
+        "codusuario" : "1",
+        "fecha" : "2022-11-21",
+        "direccion" : "calle-16b 02",        
+        "email" : "san01@",
+        "telefono" : 11256,
+        "subtotal" : 100,
+        "impuestos" : 10,
+        "total" : 110,
+        "estado" : true 
+    }
+    
+]

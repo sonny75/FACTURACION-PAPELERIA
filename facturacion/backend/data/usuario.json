@@ -1,0 +1,14 @@
+[
+    {
+        
+        "codusuario" : "1",
+        "nombre" : "santiago ",
+        "apellido" : "garcia",        
+        "identificacion" : 123456 ,
+        "email" : "san01@gmail.com",
+        "telefono" : 100,
+        "contrasena" : 10
+         
+    }
+    
+]

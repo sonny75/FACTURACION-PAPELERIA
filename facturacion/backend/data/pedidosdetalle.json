@@ -1,0 +1,18 @@
+[
+    {
+        "codigo" : "3",
+        "codpedido" : "x56re6",
+        "codproducto" : "1636",
+        "valorunitario" : 20000,
+        "cantidad" : 1,
+        "valortotal" : 20000
+    },
+    {
+        "codigo" : "4",
+        "codpedido" : "x56re6",
+        "codproducto" : "5635",        
+        "valorunitario" : 30000,
+        "cantidad" : 1,
+        "valortotal" : 30000
+    }
+]
